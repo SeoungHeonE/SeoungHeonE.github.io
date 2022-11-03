@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>귀멸의 칼날 홈페이지</title>
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/common.css">
+  <!-- js -->
+  <script src="./js/fullDn.js"></script>
+  <script src="./js/autobanner.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <!-- header -->
+    <header>
+      <div id="headerWrap">
+        <div id="head">
+          <!-- 로고 -->
+          <div id="logo" class="clearfix">
+            <a href="index.html"><img src="./img/demonSlayerLogo.png" width="300"></a>
+          </div>
+          <!-- 내비게이션 -->
+          <div class="nav_s">
+            <div class="nav-wrapper">
+              <nav>
+                <a href="page1.html">캐릭터소개</a><br>
+                <a href="page2.html">시리즈소개</a><br>
+                <a href="page3.html">명장면</a><br>
+                <a href="page4.html">포토</a><br>
+                <a href="page5.html">귀칼창작</a>
+              </nav>
+            </div>
+          </div>
+          <nav class="nav">
+            <ul id="gnb" class="clearfix">
+              <li class="nav1"><a href="page1.html">캐릭터소개</a>
+                <ul class="sub">
+                  <li><a href="page1 sub1.html">귀살대</a></li>
+                  <li><a href="page1 sub2.html">오니</a></li>
+                </ul>
+              </li>
+              <li class="nav2"><a href="page2.html">시리즈소개</a>
+                <ul class="sub">
+                  <li><a href="page2 sub1.html">1기</a></li>
+                  <li><a href="page2 sub2.html">2기</a></li>
+                  <li><a href="page2 sub3.html">극장판</a></li>
+                </ul>
+              </li>
+              <li class="nav3"><a href="page3.html">명장면</a></li>
+              
+              <li class="nav4"><a href="page4.html">포토</a></li>
+              
+              <li class="nav5"><a href="page5.html">귀칼창작</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- 컨텐츠 -->
+    <div class="contents">
+      <section class="banner-wrap">
+        <!-- 버튼 -->
+          <input type="radio" name="banner" id="sel1" class="banner-input1" checked>
+          <label for="sel1" class="btn1" id="btn"></label>
+    
+          <input type="radio" name="banner" id="sel2" class="banner-input2">
+          <label for="sel2" class="btn2" id="btn"></label>
+
+          <input type="radio" name="banner" id="sel3" class="banner-input3">
+          <label for="sel3" class="btn3" id="btn"></label>
+  
+        <!-- 배너이미지 -->
+        <ul class="banner">
+          <li>
+            <a href="#"><img class="img" src="./img/rengoku3.jpg" alt=""></a>
+            <h1 class="main_image_text">
+              나는 염주(炎柱) 렌고쿠 쿄쥬로!<br>
+              마음을 불태워라 한계를 뛰어넘어
+            </h1>
+          </li>
+          <li>
+            <a href="#"><img class="img" src="./img/tengen.jpg" alt=""></a>
+            <h1 class="sub_image_text">
+              악보(樂譜)가 완성됐다 이기러 가자!<br>
+              여기서부턴 화려하게 가보자고
+            </h1>
+          </li>
+          <li>
+            <a href="#"><img class="img" src="./img/daki.jpg" alt=""></a>
+            <h1 class="sub_image_text">
+              우린 둘이서 하나(一心同體)니까<br>
+              난 지금 도깨비니까 상관없어
+            </h1>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <!-- 오디오 플레이어 -->
+    <div class="main_audio">
+      <audio src='Aimer.mp3' controls autoplay loop></audio>
+    </div>
+  </div>
+  </div>
+  <!-- 푸터 -->
+  <div id="footerArea">
+    <ul class="footer cl_b">
+      <li class="mtt">(주)유포테이블 (주)슈에이샤</li>
+      <li>대표이사 : 콘도 히카루 &nbsp;&nbsp; 작가 : 고토게 코요하루</li>
+      <li>주소 : 도쿄도 스기나미구 혼아마누마 2-47-17 제2 에노모토 빌딩 &nbsp;&nbsp; 연락처 : +81 3-3388-0335</li>
+      <li class="copytxt">Copyright (c) 2012-2019 ufotable inc.All Rights Reserved.</li>
+        <div>
+          <li class="icon">
+          <a href="https://www.netflix.com/browse" target="_blank"><img class="netflix" src="./img/netflix.png" alt=""></a> 
+          <a href="https://laftel.net/" target="_blank"><img class="laftel" src="./img/laftel.png" alt=""></a>
+          </li>
+        </div>
+    </ul>
+  </div>
+</body>
+</html>

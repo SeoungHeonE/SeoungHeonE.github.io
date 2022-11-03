@@ -1,0 +1,10 @@
+/* css/fonts.css */
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Poiret+One&display=swap');
+
+html {
+  font-family: 'Noto Sans HK', 'Noto Sans KR';
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
